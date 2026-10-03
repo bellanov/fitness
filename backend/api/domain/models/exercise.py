@@ -6,6 +6,7 @@ from api.domain.models.camel_case import CamelCaseModel
 
 # TODO: Going to have an enumeration of all exercises, but for now, just a string will suffice.
 
+
 class Exercise(CamelCaseModel):
     """Represents an exercise.
 

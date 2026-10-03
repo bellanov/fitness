@@ -3,9 +3,7 @@
 # Format Code Base.
 
 echo "Formatting imports..."
-uv run isort samples
-uv run isort tests
+uv run isort .
 
 echo "Formatting code base..."
-uv run black samples 
-uv run black tests
+uv run black . 
