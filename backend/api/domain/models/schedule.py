@@ -5,7 +5,7 @@ from pydantic import Field
 from api.domain.models.camel_case import CamelCaseModel
 
 # TODO: Define the schedule model
-# 
+#
 # Make sense of the following concepts:
 #
 #   Exercise

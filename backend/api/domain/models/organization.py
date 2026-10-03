@@ -6,6 +6,7 @@ from api.domain.models.camel_case import CamelCaseModel
 
 # TODO: How to ensure organizations are unique?
 
+
 class Organization(CamelCaseModel):
     """Represents an organization.
 
